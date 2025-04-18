@@ -1,25 +1,17 @@
 {
   "name": "og-meta-scraper",
   "version": "1.0.0",
-  "description": "Basic Meta Data Scraper",
+  "description": "Simple metadata scraper with Puppeteer",
   "main": "index.js",
   "scripts": {
     "postinstall": "puppeteer browsers install chrome",
     "start": "node index.js"
-  }
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alitaptik/og-meta-scraper.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alitaptik/og-meta-scraper/issues"
-  },
-  "homepage": "https://github.com/alitaptik/og-meta-scraper#readme",
+  "author": "Ali Taptik",
+  "license": "MIT",
   "dependencies": {
-    "express": "^5.1.0",
-    "puppeteer": "^24.6.1"
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.8"
   }
 }
+
