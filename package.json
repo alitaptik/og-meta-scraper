@@ -1,0 +1,24 @@
+{
+  "name": "og-meta-scraper",
+  "version": "1.0.0",
+  "description": "Basic Meta Data Scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alitaptik/og-meta-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alitaptik/og-meta-scraper/issues"
+  },
+  "homepage": "https://github.com/alitaptik/og-meta-scraper#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "puppeteer": "^24.6.1"
+  }
+}
