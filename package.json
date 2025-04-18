@@ -4,8 +4,9 @@
   "description": "Basic Meta Data Scraper",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "postinstall": "puppeteer browsers install chrome",
+    "start": "node index.js"
+  }
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alitaptik/og-meta-scraper.git"
