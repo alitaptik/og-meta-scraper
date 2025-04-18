@@ -1,17 +1,12 @@
 {
   "name": "og-meta-scraper",
   "version": "1.0.0",
-  "description": "Simple metadata scraper with Puppeteer",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "puppeteer browsers install chrome",
     "start": "node index.js"
   },
-  "author": "Ali Taptik",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
     "puppeteer": "^21.3.8"
   }
 }
-
